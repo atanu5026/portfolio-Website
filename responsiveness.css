@@ -1,0 +1,186 @@
+@media all and (min-width: 2560px) {
+    .para {
+        left: 80.8rem;
+        top: -10rem;
+        font-size: 2.3rem;
+    }
+    .my_heading {
+        left: 53rem;
+        top: 10rem;
+        font-size: 100px;
+    }
+    #myPng {
+        left: 30rem;
+        top: 2.5rem;
+        position: relative;
+    }
+    .navigationBar {
+        height: 7rem;
+    }
+    .a_tags_1 {
+        margin: 0rem 1rem 0rem 1rem;
+        font-size: 2rem;
+    }
+    #heading_id {
+        font-size: 3rem;
+        padding: 5px 0px;
+    }
+    .image_container ul li i {
+        font-size: 100px;
+        left: 21rem;
+        position: relative;
+    }
+    .list_menu {
+        padding: 15px;
+    }
+    #heading_id2 {
+        font-size: 3rem;
+    }
+    .container_s1 {
+        padding: 3rem;
+    }
+    .container_s2 {
+        padding: 3rem;
+    }
+    .container_s3 {
+        padding: 3rem;
+    }
+    .container_s4 {
+        padding: 3rem;
+    }
+    .container_s5 {
+        padding: 3rem;
+    }
+    .container_s6 {
+        padding: 3rem;
+    }
+    div[role="progressbar"] {
+        --size: 12rem;
+    }
+    #heading_id3 {
+        font-size: 3rem;
+        padding: 3rem 0rem 0rem 0rem;
+    }
+    .images2 {
+        width: 50%;
+        
+    }
+    .para2 {
+        top: -30rem;
+        left: 101rem;
+        font-size: 2rem;
+        width: 35rem;
+    }
+    .about_page_image {
+        margin-top: 10px;
+    }
+    #heading_id4 {
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+    .form_index input, textarea {
+        font-size: 2rem;
+        padding: 3rem;
+    }
+    .form_index button {
+        font-size: 2rem;
+        left: 55.5rem;
+        width: 30rem;
+    }
+    .social a {
+        font-size: 3rem;
+        padding: 0.5rem;
+    }
+    .list_1 li a {
+        font-size: 2rem;
+    }
+    .copyright {
+        font-size: 1.5rem;
+    }
+    .list_1 li {
+        padding: 1rem 1.5rem;
+    }
+}
+@media all and (min-width: 1440px) and (max-width: 2559px) {
+    .para {
+        left: 40.3rem;
+        top: -5.5rem;
+        font-size: 1.5rem;
+    }
+    .my_heading {
+        left: 25rem;
+        top: 5.5rem;
+        font-size: 4rem;
+    }
+    #myPng {
+        left: 15rem;
+        top: 2.5rem;
+        position: relative;
+        width: 15rem;
+        height: 15rem;
+    }
+    .navigationBar {
+        height: 5rem;
+    }
+    #heading_id {
+        font-size: 2.5rem;
+        padding: 5px 0px;
+    }
+    .image_container ul li i {
+        font-size: 3rem;
+        left: 5.5rem;
+        position: relative;
+    }
+    .list_menu {
+        padding: 15px;
+    }
+    #heading_id2 {
+        font-size: 2.5rem;
+    }
+    #heading_id3 {
+        font-size: 2.5rem;
+    }
+    .para2 {
+        font-size: 1.2rem;
+        top: -15rem;
+    }
+    #heading_id4 {
+        font-size: 2.5rem;
+    }
+    .form_index input, textarea {
+        font-size: 1.1rem;
+        padding: 1.5rem;
+    }
+    .form_index button {
+        font-size: 1.2rem;
+        left: 28.1rem;
+        width: 20rem;
+    }
+    .copyright {
+        font-size: 0.9rem;
+    }
+    .social a {
+        font-size: 2.5rem;
+        padding: 0.5rem;
+    }
+    .list_1 li a {
+        font-size: 1.2rem;
+    }
+}
+@media all and (max-width: 768px) {
+    #menu {
+        display: block;
+        position: relative;
+        left: 5.5rem;
+    }
+    #menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .
+}

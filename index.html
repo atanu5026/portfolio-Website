@@ -6,19 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsiveness.css">
     <title>Atanu Ghosh</title>
 </head>
 <body>
     <header class="headerMain">
+        
         <nav class="navigationBar">
-            <ul>
-                <li class="list_menu"><a href="http://127.0.0.1:5500/index.html" class="a_tags_1">Home</a></li>
-                <li class="list_menu"><a href="http://blogdroid.ml/portofolio/" class="a_tags_1">Services</a></li>
-                <li class="list_menu"><a href="http://blogdroid.ml/project-details/" class="a_tags_1">Experience</a></li>
-                <li class="list_menu"><a href="http://blogdroid.ml/about/" class="a_tags_1">About Me</a></li>
-                <li class="list_menu"><a href="http://blogdroid.ml" class="a_tags_1">BlogDroid</a></li>
+            <ul class="navMenu">
+                <li class="list_menu"><a href="http:/codersden.000webhostapp.com" class="a_tags_1">Home</a></li>
+                <li class="list_menu"><a href="#heading_id" class="a_tags_1">Services</a></li>
+                <li class="list_menu"><a href="#heading_id2" class="a_tags_1">Experience</a></li>
+                <li class="list_menu"><a href="#heading_id3" class="a_tags_1">About Me</a></li>
+                <li class="list_menu"><a href="#heading_id4" class="a_tags_1">Contact Me</a></li>
             </ul>
+            <div id="menu" onclick="onClickMenu()">
+                <div class="bar" id="bar1"></div>
+                <div class="bar" id="bar2"></div>
+                <div class="bar" id="bar3"></div>
+            </div>
         </nav>
     </header>
     <main class="main_body">
@@ -73,7 +83,7 @@
         </div>
     </section>
     <section class="about_me1">
-        <h2 class="heading_id3">About Me</h2>
+        <h2 id="heading_id3">About Me</h2>
         <div class="about_page_image">
             <img src="https://source.unsplash.com/1920x1080/?nature, water" alt="nature" class="images2">
         </div>
@@ -83,7 +93,7 @@
     </section>
     <section class="form_class">
         <div class="form_container">
-            <h2 class="heading_id4">Contact Me</h2>
+            <h2 id="heading_id4">Contact Me</h2>
             <form class="form_index" onsubmit="sendEmail(); reset(); return false;">
                 <input type="text" id="firstName" placeholder="First Name" required>
                 <input type="text" id="lastName" placeholder="Last Name" required>

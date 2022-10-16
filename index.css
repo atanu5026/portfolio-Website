@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
 }
 body {
     background-color: #3c403d;
@@ -31,6 +35,7 @@ body {
 #myPng {
     border-radius: 50%;
     margin-top: 20px;
+    position: relative;
 }
 .my_heading {
     position: relative;
@@ -77,7 +82,7 @@ span {
 }
 .images {
     border-radius: 4px;
-    width: 30rem;
+    width: 50%;
     margin: 25px 50px 50px 50px;
     transition: transform 0.3s ease;
 }
@@ -333,13 +338,13 @@ div[role="progressbar"]::before {
 .about_me1:hover {
     transform: translate(-5px, -5px);
 }
-.heading_id3 {
+#heading_id3 {
     text-align: center;
     color: #000;
     transition: 0.3s ease;
     padding: 20px 0px 0px 0px;
 }
-.heading_id3:hover {
+#heading_id3:hover {
     color: rgb(255, 145, 0);
 }
 .para2:hover {
@@ -360,13 +365,13 @@ div[role="progressbar"]::before {
 .form_container:hover {
     transform: translate(-5px, -5px);
 }
-.heading_id4 {
+#heading_id4 {
     text-align: center;
     color: #000;
     transition: 0.3s ease;
     padding: 20px 0px 0px 0px;
 }
-.heading_id4:hover {
+#heading_id4:hover {
     color: rgb(255, 145, 0);
 }
 .form_index {
@@ -390,7 +395,7 @@ div[role="progressbar"]::before {
     border: none;
     border-radius: 30px;
     position: relative;
-    left: 330px;
+    left: 476px;
     width: 200px;
     color: #fff;
     cursor: pointer;
@@ -461,4 +466,21 @@ div[role="progressbar"]::before {
     padding: 50px 10px 50px 10px;
     color: #4b4c4d;
     font-size: 10px;
+}
+#menu {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 2.5rem;
+    height: 0.3rem;
+    margin: 0.5rem auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+
+}
+.navMenu {
+    
 }
