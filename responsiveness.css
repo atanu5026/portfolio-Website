@@ -167,11 +167,11 @@
         font-size: 1.2rem;
     }
 }
-@media all and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
     #menu {
         display: block;
         position: relative;
-        left: 17.5rem;
+        left: 24.5rem;
     }
     #menu.active .bar:nth-child(2) {
         opacity: 0;
@@ -188,11 +188,12 @@
     .navMenu {
         position: fixed;
         left: -100%;
-        top: 7rem;
+        top: 5rem;
         gap: 0;
         flex-direction: column;
         background-color: #88888871;
-        width: 100%;
+        width: 55.7rem;
+        height: 45rem;
         text-align: center;
         transition: 0.3s;
         z-index: 1;
@@ -204,12 +205,84 @@
         left: 0;
 
     }
+    .headerMain {
+        width: 55.7rem;
+    }
+    .a_tags_1 {
+        font-size: 1.5rem;
+    }
+    .main_body {
+        width: 49.5rem;
+    }
+    .my_heading {
+        left: -1rem;
+    }
+    .para {
+        left: 26.2rem;
+    }
+    .about_me1 {
+        width: 49.5rem;
+    }
+    .form_container {
+        width: 49.5rem;
+    }
+    .images2 {
+        height: 17rem;
+        width: 26rem;
+    }
+    .para2 {
+        width: 15rem;
+        top: -15rem;
+        left: 32rem;
+    }
+    #heading_id {
+        width: 55.7rem;
+    }
+    #heading_id2 {
+        width: 55.7rem;
+    }
+    .images {
+        height: 17rem;
+        width: 31rem;
+        left: 9rem;
+        position: relative;
+    }
+    .image_container ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20rem;
+    top: 19rem;
+    left: -22rem;
+    
+    }
+    .services_container1 {
+        left: 4rem;
+        position: relative;
+    }
+    .services_container2 {
+        left: 4rem;
+        position: relative;
+    }
+    .form_index button {
+        font-size: 1rem;
+        left: 15rem;
+        width: 16rem;
+    }
+    .footer_of_the_website {
+        width: 55.7rem;
+    }
+    .copyright {
+        font-size: 0.8rem;
+    }
 }
 @media all and (min-width: 375px) and (max-width: 424px) {
     #menu {
         display: block;
         position: relative;
         left: 9.5rem;
+    }
+    .a_tags_1 {
+        font-size: 1.5rem;
     }
     #menu.active .bar:nth-child(2) {
         opacity: 0;
@@ -341,5 +414,24 @@
     }
     .list_1 li a {
         font-size: 0.7rem;
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1439px) {
+    .form_index button {
+        font-size: 1rem;
+        left: 18rem;
+        width: 16rem;
+    }
+    .navigationBar {
+        height: 4rem;
+    }
+    .my_heading {
+        left: 2rem;
+    }
+    .para {
+        left: 29.2rem;
+    }
+    .a_tags_1 {
+        font-size: 1.5rem;
     }
 }
