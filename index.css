@@ -470,6 +470,7 @@ div[role="progressbar"]::before {
 #menu {
     display: none;
     cursor: pointer;
+    position: relative;
 }
 .bar {
     display: block;
@@ -480,7 +481,4 @@ div[role="progressbar"]::before {
     transition: all 0.3s ease-in-out;
     background-color: #fff;
 
-}
-.navMenu {
-    
 }

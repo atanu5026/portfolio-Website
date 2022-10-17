@@ -25,9 +25,9 @@
                 <li class="list_menu"><a href="#heading_id4" class="a_tags_1">Contact Me</a></li>
             </ul>
             <div id="menu" onclick="onClickMenu()">
-                <div class="bar" id="bar1"></div>
-                <div class="bar" id="bar2"></div>
-                <div class="bar" id="bar3"></div>
+                <span class="bar" id="bar1"></span>
+                <span class="bar" id="bar2"></span>
+                <span class="bar" id="bar3"></span>
             </div>
         </nav>
     </header>
@@ -141,6 +141,17 @@
             message => alert(message)
             );
         }
+        const menu = document.querySelector("#menu");
+        const navMenu = document.querySelector(".navMenu");
+
+        menu.addEventListener("click", () => {
+            menu.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        })
+        document.querySelectorAll(".list_menu").forEach(n => n.addEventListener("click", () => {
+            menu.classList.remove("active");
+            navMenu.classList.remove("active");
+        }))
     </script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
